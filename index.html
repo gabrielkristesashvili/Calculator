@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="utf-8">
+    <title>Calculator</title>
+    <link rel="stylesheet" href="./public/css/reset.css">
+    <link rel="stylesheet" href="./public/css/style.css">
+    <link rel="icon" type="image/x-icon" sizes="320x320" href="favicon.png">
+</head>
+
+<body>
+
+
+    <div class="back">
+
+        <div class="calc">
+            <form name="form">
+                <input class="calc-display" disabled>
+            </form>
+            <table>
+                <tr>
+                    <td><input type="button" style="background-color: rgba(255, 0, 0, 0.479)" value="C" onclick="c()">
+                    </td>
+                    <td><input type="button" value="/" onclick="insrt('/')"></td>
+                    <td><input type="button" value="<" onclick="del()"></td>
+                    <td><input type="button" value="X" onclick="insrt('*')"></td>
+                </tr>
+                <tr>
+                    <td><input type="button" value="7" onclick="insrt(7)"></td>
+                    <td><input type="button" value="8" onclick="insrt(8)"></td>
+                    <td><input type="button" value="9" onclick="insrt(9)"></td>
+                    <td><input type="button" value="-" onclick="insrt('-')"></td>
+                </tr>
+                <tr>
+                    <td><input type="button" value="4" onclick="insrt(4)"></td>
+                    <td><input type="button" value="5" onclick="insrt(5)"></td>
+                    <td><input type="button" value="6" onclick="insrt(6)"></td>
+                    <td><input type="button" value="+" onclick="insrt('+')"></td>
+                </tr>
+                <tr>
+                    <td><input type="button" value="1" onclick="insrt(1)"></td>
+                    <td><input type="button" value="2" onclick="insrt(2)"></td>
+                    <td><input type="button" value="3" onclick="insrt(3)"></td>
+                    <td rowspan=2><input type="button" value="=" onclick="eql()"
+                            style="height: 158px; background-color: #058d926b"></td>
+                </tr>
+                <tr>
+                    <td colspan="2"><input type="button" value="0" onclick="insrt(0)" style="width: 158px;"></td>
+                    <td><input type="button" value="." onclick="insrt('.')"></td>
+                </tr>
+            </table>
+        </div>
+    </div>
+
+
+
+
+
+
+
+
+
+    <!--=========  Page cursor  =========-->
+
+    <div class='cursor' id="cursor"></div>
+    <div class='cursor2' id="cursor2"></div>
+    <div class='cursor3' id="cursor3"></div>
+
+    <!-- =========================== -->
+
+    <script src="http://code.jquery.com/jquery-1.10.1.min.js"></script>
+    <script src="js/script.js"></script>
+</body>
+
+</html>
