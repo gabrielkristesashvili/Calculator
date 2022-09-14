@@ -32,3 +32,31 @@ function del() {
 // js
 // js
 // js
+// js 
+// js
+// js
+// js
+// js 
+// js
+// js
+// js
+// js 
+// js
+//  === Contact Me ===
+//  Github: "https://github.com/gabrielkristesashvili"
+//  fb: "https://www.facebook.com/gabrielkristesashvili/"
+//  === ========== ===
+// js 
+// js
+// js
+// js
+// js 
+// js
+// js
+// js
+// js 
+// js
+// js
+// js
+// js 
+// js
