@@ -12,47 +12,93 @@
 
 <body>
 
+    <section class="backgr">
+        <div class="container">
+            <div class="row">
+                <div class="col-3 dn"></div>
+                <div class="col-6 center">
+                    <div class="calc">
+                        <form name="form">
+                            <input class="calc-display" disabled>
+                        </form>
+                        <div class="col-3">
+                            <div class="card">
+                                <input type="button" style="background-color: rgba(255, 0, 0, 0.479)" value="C"
+                                    onclick="c()">
+                            </div>
+                        </div>
+                        <div class="col-3">
+                            <div class="card">
+                                <input type="button" value="/" onclick="insrt('/')">
+                            </div>
+                        </div>
+                        <div class="col-3">
+                            <div class="card">
+                                <input type="button" value="<" onclick="del()">
+                            </div>
+                        </div>
+                        <div class="col-3">
+                            <div class="card">
+                                <input type="button" value="X" onclick="insrt('*')">
+                            </div>
+                        </div>
+                        <div class="row">
+                            <div class="col-3">
+                                <div class="card"><input type="button" value="7" onclick="insrt(7)"></div>
+                            </div>
+                            <div class="col-3">
+                                <div class="card"><input type="button" value="8" onclick="insrt(8)"></div>
+                            </div>
+                            <div class="col-3">
+                                <div class="card"><input type="button" value="9" onclick="insrt(9)"></div>
+                            </div>
+                            <div class="col-3">
+                                <div class="card"><input type="button" value="-" onclick="insrt('-')"></div>
+                            </div>
+                        </div>
+                        <div class="row">
+                            <div class="col-3">
+                                <div class="card"><input type="button" value="4" onclick="insrt(4)"></div>
+                            </div>
+                            <div class="col-3">
+                                <div class="card"><input type="button" value="5" onclick="insrt(5)"></div>
+                            </div>
+                            <div class="col-3">
+                                <div class="card"><input type="button" value="6" onclick="insrt(6)"></div>
+                            </div>
+                            <div class="col-3">
+                                <div class="card"><input type="button" value="+" onclick="insrt('+')"></div>
+                            </div>
+                        </div>
+                        <div class="row">
+                            <div class="col-3">
+                                <div class="card"><input type="button" value="1" onclick="insrt(1)"></div>
+                            </div>
+                            <div class="col-3">
+                                <div class="card"><input type="button" value="2" onclick="insrt(2)"></div>
+                            </div>
+                            <div class="col-3">
+                                <div class="card"><input type="button" value="3" onclick="insrt(3)"></div>
+                            </div>
+                            <div class="col-6">
+                                <div class="card"><input type="button" value="0" onclick="insrt(0)"></div>
+                            </div>
+                            <div class="col-3">
+                                <div class="card"><input type="button" value="." onclick="insrt('.')"></div>
+                            </div>
+                            <div class="col-3 card-eql">
+                                <div class="card"><input type="button" value="=" onclick="eql()"
+                                        style="height: 280px; background-color: #058d926b">
+                                </div>
+                            </div>
+                        </div>
 
-    <div class="backgr">
-        <div class="calc">
-            <form name="form">
-                <input class="calc-display" disabled>
-            </form>
-            <table>
-                <tr>
-                    <td><input type="button" style="background-color: rgba(255, 0, 0, 0.479)" value="C" onclick="c()">
-                    </td>
-                    <td><input type="button" value="/" onclick="insrt('/')"></td>
-                    <td><input type="button" value="<" onclick="del()"></td>
-                    <td><input type="button" value="X" onclick="insrt('*')"></td>
-                </tr>
-                <tr>
-                    <td><input type="button" value="7" onclick="insrt(7)"></td>
-                    <td><input type="button" value="8" onclick="insrt(8)"></td>
-                    <td><input type="button" value="9" onclick="insrt(9)"></td>
-                    <td><input type="button" value="-" onclick="insrt('-')"></td>
-                </tr>
-                <tr>
-                    <td><input type="button" value="4" onclick="insrt(4)"></td>
-                    <td><input type="button" value="5" onclick="insrt(5)"></td>
-                    <td><input type="button" value="6" onclick="insrt(6)"></td>
-                    <td><input type="button" value="+" onclick="insrt('+')"></td>
-                </tr>
-                <tr>
-                    <td><input type="button" value="1" onclick="insrt(1)"></td>
-                    <td><input type="button" value="2" onclick="insrt(2)"></td>
-                    <td><input type="button" value="3" onclick="insrt(3)"></td>
-                    <td rowspan=2><input type="button" value="=" onclick="eql()"
-                            style="height: 158px; background-color: #058d926b"></td>
-                </tr>
-                <tr>
-                    <td colspan="2"><input type="button" value="0" onclick="insrt(0)" style="width: 158px;"></td>
-                    <td><input type="button" value="." onclick="insrt('.')"></td>
-                </tr>
-            </table>
+                    </div>
+                </div>
+                <div class="col-3 dn"></div>
+            </div>
         </div>
-    </div>
-
+    </section>
 
 
 
